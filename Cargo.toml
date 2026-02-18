@@ -6,12 +6,12 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-structopt = "^0.3"
-# tmux_interface = "^0.1"
-anyhow = "*"
-psutil = "*"
-bytesize = "*"
-tmux_interface = {version = "^0.2",features = ["tmux_2_6"],default-features = false}
+structopt = "0.3.26"
+# tmux_interface = "0.3.2"
+anyhow = "1.0.101"
+psutil = "5.4.0"
+bytesize = "2.3.1"
+tmux_interface = {version = "0.3.2",features = ["tmux_2_6"],default-features = false}
 
 [profile.release]
 opt-level = 'z'
